@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "umi-library": "^1.6.0"
+  },
+  "name": "@panxiaoliang/new1",
+  "description": "new1",
+  "version": "1.0.0",
+  "main": "/dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "/dist/index.umd.js",
+  "dependencies": {
+    "classnames": "^2.3.1"
+   
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "build": "umi-lib build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoliangpan/new1.git"
+  },
+  "keywords": [
+    "new1",
+    "test"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "panxiaoliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoliangpan/new1/issues"
+  },
+  "homepage": "https://github.com/xiaoliangpan/new1#readme"
+}
